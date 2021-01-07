@@ -1,0 +1,58 @@
+to make folder:
+
+	mkdir folderName
+	
+to go to folder:
+
+	cd folderName
+	
+to add a file to that folder (after manually dragging it):
+
+	git add file
+e.g. git add random.txt
+
+to save changes
+
+	git commit -m "describe what you just did"
+e.g. git commit -m "added a file"
+
+to download repo from GitHub to local (your computer)
+
+	git clone <link to repo>
+(you should be able to see this folder in your computer now)
+
+to go to repo
+
+	cd repoName
+
+to set the clone directory as a Git repo
+
+	git init
+
+to add the folder you created before (or even any folder you want after manually dragging it into this initialized repo)
+
+	git add whateverFolderYouJustAdded
+
+to save changes
+
+	git commit -m "what you did"
+
+to see the bookmarked repo or crosscheck if you have the right repo
+
+	remote -v 
+	
+		if not in the right place:
+		to add a new remote
+		
+			git remote add origin <link to repo>
+			
+		to change url of an existing remote repo
+		
+			git remote set-url origin <link to repo>
+		
+to push code to master branch of the remote repository defined "origin":
+
+	git push -u origin 
+
+you should see a message showing done.
+after this, slam your laptop into the ground and yell "FINALLy!"
