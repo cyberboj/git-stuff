@@ -1,0 +1,35 @@
+go to repo folder:
+
+	cd repoName
+	
+go to folder you want to add file to in existing repo:
+
+	cd fileName
+	
+to add file (after manually dragging it in):
+
+	add fileName
+	
+to list all files in folder (and to see that the file has successfully been added):
+
+	ls -a
+
+to save changes:
+
+	git commit -m "message describing what you did"
+	
+to exit folder (and go back into repo):
+
+	cd ..
+	
+to check for the url for our repo
+
+	git remote -v
+	
+
+now to push our code/work:
+
+	git push -u origin
+	
+and that's it. you can head over to your GitHub profile and check in your repo
+
