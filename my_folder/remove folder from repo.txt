@@ -1,0 +1,23 @@
+go to repo folder:
+
+	cd repoName
+	
+to remove folder in repo:
+
+	git rm -r folderYouWannaRemove
+
+to check if you have the right url for repo:
+
+	git remote -v
+
+if you're seeing origin and upstream:
+
+	git pull 
+
+idk why you have to pull but if someone understands why, please let me know <3
+
+	git branch --set-upstream-to=origin
+
+finally, to push code:
+
+	git push -u origin
