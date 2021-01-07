@@ -1,0 +1,6 @@
++ codecademy
++ push to git
+	+ how to update existing folders 
+- codewithmosh
+- introduction to networking
+- finish Limbo
