@@ -1,0 +1,1 @@
+git mv <old name> <new name>
